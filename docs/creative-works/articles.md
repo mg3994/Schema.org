@@ -63,10 +63,10 @@ Articles include news reports, blog posts, scholarly articles, and social media 
   "description": "An in-depth look at the upcoming Mars mission and the technology behind it.",
   "articleBody": "Content of the article goes here...",
   "keywords": ["Mars", "Space Exploration", "NASA", "2030"],
-  "isAccessibleForFree": "True",
+  "isAccessibleForFree": true,
   "hasPart": {
     "@type": "WebPageElement",
-    "isAccessibleForFree": "False",
+    "isAccessibleForFree": false,
     "cssSelector": ".premium-content"
   }
 }

@@ -6,6 +6,7 @@
 
 *   [Conditions & Diseases](conditions.md) - Infectious diseases, chronic conditions.
 *   [Treatments & Procedures](treatments.md) - Drugs, surgeries, therapies.
+*   [Life Sciences & BioChem](life-sciences.md) - Genes, Proteins, Taxons.
 
 ## Exhaustive Categories
 

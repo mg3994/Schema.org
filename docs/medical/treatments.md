@@ -22,7 +22,7 @@ Documentation for surgeries, therapies, drugs, and lifestyle modifications.
   "activeIngredient": "Ibuprofen",
   "dosageForm": "Tablet",
   "drugPrescriptionStatus": "https://schema.org/OTC",
-  "isProprietary": "false",
+  "isProprietary": false,
   "legalStatus": {
     "@type": "DrugLegalStatus",
     "applicableLocation": { "@type": "Country", "name": "US" }

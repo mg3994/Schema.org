@@ -65,7 +65,7 @@ The hierarchy is deep. Here are the main branches:
   "menu": "https://example.com/menu",
   "servesCuisine": "Modern Italian",
   "priceRange": "$$$",
-  "acceptsReservations": "true",
+  "acceptsReservations": true,
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",

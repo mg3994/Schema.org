@@ -33,8 +33,8 @@ Documentation for places where users can stay, such as hotels, apartments, and v
     "addressRegion": "FL"
   },
   "amenityFeature": [
-    { "@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": "true" },
-    { "@type": "LocationFeatureSpecification", "name": "Pool", "value": "true" }
+    { "@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Pool", "value": true }
   ],
   "containsPlace": [
     {
