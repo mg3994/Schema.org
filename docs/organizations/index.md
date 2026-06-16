@@ -6,6 +6,13 @@ An `Organization` represents an institution such as a company or university.
 
 *   [Local Businesses](local-businesses.md) - Physical stores and branches.
 *   [Educational Organizations](educational.md) - Schools and Universities.
+*   [Sports Organizations](sports.md) - Teams and sports governing bodies.
+*   [Health & Beauty](health-beauty.md) - Salons, Spas, Gyms.
+*   [Specialized Organizations](specialized.md) - Airlines, NGOs, News media.
+*   [Food Establishments](food-establishments.md) - Restaurants, Menus, and Items.
+*   [Automotive](automotive.md) - Dealerships and Repair shops.
+*   [Retail Stores](stores.md) - Clothing, Books, Electronics, etc.
+*   [Local Services](services-local.md) - Animal shelters, Childcare, Dry cleaning.
 
 ## Other Types
 *   **Corporation**: Business corporations.

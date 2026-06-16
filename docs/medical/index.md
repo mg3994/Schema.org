@@ -7,6 +7,8 @@
 *   [Conditions & Diseases](conditions.md) - Infectious diseases, chronic conditions.
 *   [Treatments & Procedures](treatments.md) - Drugs, surgeries, therapies.
 *   [Life Sciences & BioChem](life-sciences.md) - Genes, Proteins, Taxons.
+*   [Anatomy & Systems](anatomy.md) - Physical structures and systems.
+*   [Studies & Tests](studies-tests.md) - Clinical trials and diagnostic tests.
 
 ## Exhaustive Categories
 

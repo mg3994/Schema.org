@@ -15,6 +15,7 @@ Welcome to the ultimate guide to Schema.org structured data. This documentation 
 9.  [Places](places/index.md) - Accommodations, Civic structures, Landforms, and Residences.
 10. [Products](products/index.md) - Individual products, Models, Vehicles, and more.
 11. [Specialized Types](others/index.md) - BioChemEntities, Taxons, and other niche schemas.
+12. [Advanced Implementation](advanced/index.md) - Entity linking, AI, and i18n.
 
 ---
 
