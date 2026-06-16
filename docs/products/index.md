@@ -8,6 +8,7 @@ A `Product` is anything that is made available for sale.
 *   [Product Identifiers](identifiers.md) - GTIN, SKU, MPN.
 *   [Advanced Offers & Shipping](advanced-offers.md) - Pricing, delivery, and returns.
 *   [Vehicles](vehicles.md) - Cars, motorcycles, and more.
+*   [Product Variants](variants.md) - Colors, flavors, sizes, and groups.
 
 ## Core Example (JSON-LD)
 
