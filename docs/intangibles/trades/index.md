@@ -15,3 +15,9 @@ Documentation for independent contractors and skilled tradespeople.
 ## Core Implementation Pattern
 
 For most trades, the best approach is to define a `LocalBusiness` or `Person` that offers a `Service` through an `OfferCatalog`.
+
+*   [Maintenance & Security](maintenance-security.md) - Locksmiths, HVAC, and Roofing.
+*   [Landscaping & Gardening](landscaping.md) - Groundskeeping and design.
+*   [Cleaning Services](cleaning.md) - Residential and Commercial.
+*   [Pest Control](pest-control.md) - Extermination and inspection.
+*   [Moving & Relocation](moving-services.md) - Licensed movers and packing.

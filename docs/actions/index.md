@@ -11,6 +11,7 @@ An `Action` represents an action performed by an entity, often on another entity
 *   [Mobile & Deep Linking](mobile-deeplinking.md) - App entry points and deep links.
 *   [Specialized Actions](specialized-actions.md) - Math, Games, Transfers.
 *   [Search & Find](search-find.md) - Searching, tracking, and verifying.
+*   [Social Interactions](social-interactions.md) - Likes, Votes, and Endorsements.
 
 ## Generic Action Example (JSON-LD)
 

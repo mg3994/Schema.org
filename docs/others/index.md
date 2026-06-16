@@ -6,6 +6,7 @@ This section covers niche Schema.org types that don't fit into the major categor
 
 *   [Niche & Technical Schemas](niche.md) - Life sciences, data types, and more.
 *   [Statistics & Data Science](statistics.md) - Populations, observations, and variables.
+*   [Detailed BioChem](biochem-detailed.md) - Molecules, Proteins, and Genes in depth.
 
 ## Core Architecture Reminder:
 1.  **Thing**: The root of everything.

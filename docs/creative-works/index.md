@@ -18,8 +18,11 @@ A `CreativeWork` is the most generic type of creative work.
 *   [Podcasts & Audio](podcasts.md) - Audio shows and episodes.
 *   [Comics & Graphic Novels](comics.md) - Series, issues, and digital stories.
 *   [Specialized Works](specialized.md) - Comics, Theses, and Reports.
+*   [Media Features](media-features.md) - Clips, Key Moments, and interactive features.
 *   [Social Media & Blogging](social-media.md) - Blog posts and social updates.
 *   [Web Page Elements](page-elements.md) - Headers, Footers, and Navigation.
+*   [Technical APIs & Code](technical-docs.md) - Web APIs and source code documentation.
+*   [Broadcasting & Channels](broadcasting.md) - TV, Radio, and Technical specs.
 
 ## Core Example (JSON-LD)
 

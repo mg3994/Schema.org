@@ -13,6 +13,7 @@
 *   [Educational & Legal](legal.md) - Programs, Permits, Legislation.
 *   [Financial Services](financial-services.md) - Loans, Bank Accounts, Investment.
 *   [Travel & Logistics](travel.md) - Flights, Trips, Reservations.
+*   [Merchant Return Policies](return-policies.md) - Returns, Refunds, and seasonal rules.
 *   [Audiences](audiences.md) - Business, Medical, and People audiences.
 *   [Grants & Funding](grants.md) - Monetary grants and funding schemes.
 *   [Occupations](occupations.md) - Professional definitions and requirements.
@@ -26,3 +27,6 @@
 *   [Credentials & Certifications](credentials.md) - Degrees and professional awards.
 *   [Fact-Checking & Reviews](fact-checking.md) - Claim reviews and professional critiques.
 *   [Reviews Deep Dive](reviews-deep-dive.md) - User reviews and recommendations.
+*   [E-commerce Workflow](ecommerce-workflow.md) - From Offer to Order and Delivery.
+*   [Roles & Memberships](roles-detailed.md) - Organizational roles and loyalty programs.
+*   [Broadcasting](../creative-works/broadcasting.md) - Channels and signals.

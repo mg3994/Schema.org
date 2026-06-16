@@ -17,6 +17,7 @@ An `Organization` represents an institution such as a company or university.
 *   [Local Services](services-local.md) - Animal shelters, Childcare, Dry cleaning.
 *   [Entertainment & Leisure](entertainment-leisure.md) - Theaters, Parks, Nightclubs.
 *   [Medical Businesses](medical-businesses.md) - Clinics, Pharmacies, Physicians.
+*   [Emergency & Public Services](emergency-public-services.md) - Police, Fire, City Hall, Embassies.
 
 ## Other Types
 *   **Corporation**: Business corporations.

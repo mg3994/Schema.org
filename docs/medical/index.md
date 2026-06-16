@@ -11,6 +11,7 @@
 *   [Studies & Tests](studies-tests.md) - Clinical trials and diagnostic tests.
 *   [Insurance & Health Plans](insurance.md) - Medical insurance and cost-sharing.
 *   [Lifestyle & Wellness](lifestyle.md) - Diets and exercise plans.
+*   [Health Topics](health-topics.md) - Medical information and reviews.
 
 ## Exhaustive Categories
 

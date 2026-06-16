@@ -10,6 +10,8 @@ A `Product` is anything that is made available for sale.
 *   [Vehicles](vehicles.md) - Cars, motorcycles, and more.
 *   [Product Variants](variants.md) - Colors, flavors, sizes, and groups.
 *   [Energy & Appliances](appliances.md) - Energy efficiency and consumption.
+*   [Custom Properties](custom-properties.md) - Handling flavor, voltage, and non-standard attributes.
+*   [Sizing & Specs](sizing.md) - Product sizes, systems, and groups.
 
 ## Core Example (JSON-LD)
 

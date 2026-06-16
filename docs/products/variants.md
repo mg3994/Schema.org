@@ -7,13 +7,13 @@ When a product comes in different versions—such as different colors, sizes, fl
 *   **ProductGroup**: Represents the "parent" entity for a group of related product variants.
 *   **variesBy**: A property on the `ProductGroup` that lists which properties differentiate the variants (e.g., `color`, `size`, `flavor`).
 *   **hasVariant**: A property on the `ProductGroup` that links to individual `Product` variants.
-*   **isVariantOf**: (Optional) A property on an individual `Product` that links back to its parent `ProductGroup`.
+*   **additionalProperty**: Used for attributes like "flavor" that are not standard Schema.org properties.
 
 ---
 
 ## Comprehensive Example: Coffee with Different Flavors & Sizes (JSON-LD)
 
-This example shows a single "Product Group" (Coffee Beans) that varies by both flavor and weight.
+This example shows a single "Product Group" (Coffee Beans) that varies by both flavor and weight. Since **flavor** is not a standard Schema.org property, we use the `additionalProperty` pattern.
 
 ```json
 {
@@ -23,7 +23,7 @@ This example shows a single "Product Group" (Coffee Beans) that varies by both f
   "description": "Premium whole bean coffee available in multiple flavors and bag sizes.",
   "@id": "https://example.com/products/coffee-group",
   "variesBy": [
-    "https://schema.org/flavor",
+    "https://schema.org/additionalProperty",
     "https://schema.org/weight"
   ],
   "brand": {
@@ -35,7 +35,13 @@ This example shows a single "Product Group" (Coffee Beans) that varies by both f
       "@type": "Product",
       "sku": "RM-VAN-500",
       "name": "Artisan Roast Coffee - Vanilla (500g)",
-      "flavor": "Vanilla",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Flavor",
+          "value": "Vanilla"
+        }
+      ],
       "weight": {
         "@type": "QuantitativeValue",
         "value": "500",
@@ -52,7 +58,13 @@ This example shows a single "Product Group" (Coffee Beans) that varies by both f
       "@type": "Product",
       "sku": "RM-CHO-500",
       "name": "Artisan Roast Coffee - Chocolate (500g)",
-      "flavor": "Chocolate",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Flavor",
+          "value": "Chocolate"
+        }
+      ],
       "weight": {
         "@type": "QuantitativeValue",
         "value": "500",
@@ -64,23 +76,6 @@ This example shows a single "Product Group" (Coffee Beans) that varies by both f
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock"
       }
-    },
-    {
-      "@type": "Product",
-      "sku": "RM-VAN-1000",
-      "name": "Artisan Roast Coffee - Vanilla (1kg)",
-      "flavor": "Vanilla",
-      "weight": {
-        "@type": "QuantitativeValue",
-        "value": "1",
-        "unitCode": "KGM"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "28.00",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock"
-      }
     }
   ]
 }
@@ -89,6 +84,8 @@ This example shows a single "Product Group" (Coffee Beans) that varies by both f
 ---
 
 ## Comprehensive Example: Clothing with Different Colors (JSON-LD)
+
+Color is a standard property, so it can be used directly.
 
 ```json
 {
@@ -124,12 +121,10 @@ This example shows a single "Product Group" (Coffee Beans) that varies by both f
 ```
 
 ## Tips for Variants
-*   **Distinct SKUs**: Every variant must have its own unique `sku` and, if available, `gtin`.
-*   **Variant-Specific Images**: If the variants look different (e.g., color), provide a specific `image` for each variant.
-*   **VariesBy URLs**: Use the full Schema.org URL for the `variesBy` properties for maximum compatibility.
-*   **Common Properties**: Put properties that are shared by all variants (like `brand`, `manufacturer`, or `description`) in the `ProductGroup` to avoid redundancy.
+*   **Unrecognized Properties**: If you need to include an attribute that isn't in Schema.org (like `flavor`, `pattern`, or `connectionType`), always use `additionalProperty`.
+*   **Distinct SKUs**: Every variant must have its own unique `sku`.
+*   **Common Properties**: Put properties that are shared by all variants (like `brand`) in the `ProductGroup`.
 
 ## Things to Avoid
-*   **Flattening Everything**: Don't put all variants as a flat list of `Product` types on a page without a `ProductGroup`. This makes it harder for search engines to understand they are versions of the same thing.
-*   **Missing Differentiation**: If you say a product varies by `flavor`, ensure every variant in the group has a `flavor` property.
-*   **Price Ranges**: For `ProductGroup`, use `offers` as an `AggregateOffer` if you want to show the price range across all variants.
+*   **Direct Use of Non-standard Keys**: Don't use `"flavor": "Vanilla"` directly in the JSON; it will fail validation.
+*   **Vague VariesBy**: If you vary by a custom property, use `https://schema.org/additionalProperty` in the `variesBy` array.

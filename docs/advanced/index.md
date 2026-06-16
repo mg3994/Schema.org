@@ -11,6 +11,7 @@ This section covers complex implementation topics for large-scale and forward-lo
 *   [Implementation FAQ](faq.md) - Frequently Asked Questions.
 *   [Accessibility & Safety](accessibility-safety.md) - Inclusive design and emergency alerts.
 *   [Email Markup](email-markup.md) - Inbox actions and email schema.
+*   [Voice Assistants](voice-assistants.md) - Speakable content and voice search.
 *   [Migration Guide](migration-guide.md) - Moving from Microdata to JSON-LD.
 *   [SEO Strategy 2025](seo-strategy.md) - Maximizing impact and rich results.
 *   [Developer Patterns](developer-patterns.md) - Scalable implementation strategies.
