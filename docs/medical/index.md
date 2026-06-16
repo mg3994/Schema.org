@@ -9,6 +9,7 @@
 *   [Life Sciences & BioChem](life-sciences.md) - Genes, Proteins, Taxons.
 *   [Anatomy & Systems](anatomy.md) - Physical structures and systems.
 *   [Studies & Tests](studies-tests.md) - Clinical trials and diagnostic tests.
+*   [Insurance & Health Plans](insurance.md) - Medical insurance and cost-sharing.
 
 ## Exhaustive Categories
 

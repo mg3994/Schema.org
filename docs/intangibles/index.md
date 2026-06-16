@@ -17,7 +17,11 @@
 *   [Grants & Funding](grants.md) - Monetary grants and funding schemes.
 *   [Occupations](occupations.md) - Professional definitions and requirements.
 *   [Legal & Government](legal-government.md) - Legislation, Permits, Services.
-*   [Professional Services & Trades](professional-services.md) - Electricians, plumbers, masons, and architects.
+*   [Permits & Legislation](gov-permits.md) - Official laws and government authorizations.
+*   [Specialized Trades](trades/index.md) - Electricians, plumbers, furniture makers, and architects.
+*   [Specialized Values](specialized-values.md) - Engines, Repayments, and unique metrics.
 *   [Job Postings](job-postings.md) - Describing specific job openings.
 *   [Courses](courses.md) - Educational courses and instances.
+*   [Shipping & Logistics](shipping-logistics.md) - Delivery costs and times.
+*   [Credentials & Certifications](credentials.md) - Degrees and professional awards.
 *   [Fact-Checking & Reviews](fact-checking.md) - Claim reviews and professional critiques.

@@ -9,6 +9,7 @@ A `Product` is anything that is made available for sale.
 *   [Advanced Offers & Shipping](advanced-offers.md) - Pricing, delivery, and returns.
 *   [Vehicles](vehicles.md) - Cars, motorcycles, and more.
 *   [Product Variants](variants.md) - Colors, flavors, sizes, and groups.
+*   [Energy & Appliances](appliances.md) - Energy efficiency and consumption.
 
 ## Core Example (JSON-LD)
 

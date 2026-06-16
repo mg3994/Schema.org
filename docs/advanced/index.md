@@ -10,6 +10,7 @@ This section covers complex implementation topics for large-scale and forward-lo
 *   [Validation & Troubleshooting](validation-tools.md) - Tools and common errors.
 *   [Implementation FAQ](faq.md) - Frequently Asked Questions.
 *   [Accessibility & Safety](accessibility-safety.md) - Inclusive design and emergency alerts.
+*   [Email Markup](email-markup.md) - Inbox actions and email schema.
 *   [Migration Guide](migration-guide.md) - Moving from Microdata to JSON-LD.
 *   [SEO Strategy 2025](seo-strategy.md) - Maximizing impact and rich results.
 *   [Developer Patterns](developer-patterns.md) - Scalable implementation strategies.
