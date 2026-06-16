@@ -8,6 +8,8 @@ A `Place` represents entities that have a physical extension.
 *   [Real Estate](real-estate.md) - Listings, Floor Plans, Complexes.
 *   [Administrative Areas](administrative.md) - Cities, Countries, States.
 *   [Civic Structures & Transit](civic-structures.md) - Airports, Museums, Stadiums.
+*   [Landforms](landforms.md) - Mountains, Rivers, Oceans.
+*   [Residences & Housing](residences.md) - Apartment complexes and communities.
 
 ## Other Categories
 *   **Civic Structure**: Airports, Museums, Parks.

@@ -16,6 +16,7 @@ A `CreativeWork` is the most generic type of creative work.
 *   [Digital Documents & Code](digital-documents.md) - Files, Source code.
 *   [Movies, TV & Video](movies-tv.md) - Films, Series, and Episodes.
 *   [Podcasts & Audio](podcasts.md) - Audio shows and episodes.
+*   [Comics & Graphic Novels](comics.md) - Series, issues, and digital stories.
 *   [Specialized Works](specialized.md) - Comics, Theses, and Reports.
 *   [Social Media & Blogging](social-media.md) - Blog posts and social updates.
 *   [Web Page Elements](page-elements.md) - Headers, Footers, and Navigation.

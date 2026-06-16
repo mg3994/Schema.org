@@ -10,6 +10,7 @@ An `Action` represents an action performed by an entity, often on another entity
 *   [Create & Update Actions](update.md) - Writing, Painting, Deleting.
 *   [Mobile & Deep Linking](mobile-deeplinking.md) - App entry points and deep links.
 *   [Specialized Actions](specialized-actions.md) - Math, Games, Transfers.
+*   [Search & Find](search-find.md) - Searching, tracking, and verifying.
 
 ## Generic Action Example (JSON-LD)
 

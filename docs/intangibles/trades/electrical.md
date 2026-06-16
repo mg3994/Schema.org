@@ -10,7 +10,7 @@ Documentation for electricians and electrical contractors.
   "@type": "Electrician",
   "name": "PowerUp Electrical",
   "telephone": "+15551234567",
-  "priceRange": "14437$",
+  "priceRange": "$$$",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Electrical Services",
